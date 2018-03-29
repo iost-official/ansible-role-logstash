@@ -7,7 +7,7 @@
     group: root
     mode: 0644
   with_items:
-    - 01-beats-input.conf
+    - 01-lumberjack-input.conf
     - 30-elasticsearch-output.conf
   notify: restart logstash
 
