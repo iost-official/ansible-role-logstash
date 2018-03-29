@@ -1,7 +1,7 @@
 input {
   lumberjack {
   	host => "{{ logstash_listen_host }}"
-    port => {{ logstash_listen_port }}
+    port => {{ logstash_conf_port }}
     type => "lumberjack"
     congestion_threshold => {{ logstash_threshold }}
     enable_metric => true
