@@ -2,7 +2,7 @@
 dependencies: []
 
 galaxy_info:
-  author: geerlingguy
+  author: deBreaker
   description: Logstash for Linux.
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
