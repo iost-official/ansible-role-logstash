@@ -3,6 +3,7 @@
   include: setup-{{ ansible_os_family }}.yml
 
 - include: config.yml
+- tags: configure
 - include: ssl.yml
 - include: plugins.yml
 

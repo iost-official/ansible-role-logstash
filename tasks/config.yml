@@ -24,6 +24,8 @@
     - 12-apache.conf
     - 14-solr.conf
     - 15-drupal.conf
+    - ingres-nginx-access.conf
+    - ingres-syslog.conf
   notify: restart logstash
 
 - name: Create Logstash configuration file for local syslog.
